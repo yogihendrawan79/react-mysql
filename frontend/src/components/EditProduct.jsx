@@ -17,15 +17,15 @@ const EditProduct = () => {
     navigate("/");
   };
 
-  const getProductById = async () => {
-    const response = await axios.get(`http://localhost:5000/products/${id}`);
-    setTitle(response.data.title);
-    setPrice(response.data.title);
-  };
-
   useEffect(() => {
+    const getProductById = async () => {
+      const response = await axios.get(`http://localhost:5000/products/${id}`);
+      setTitle(response.data.title);
+      setPrice(response.data.title);
+    };
+
     getProductById();
-  }, []);
+  }, [id]);
 
   return (
     <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
