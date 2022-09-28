@@ -9,6 +9,7 @@ Ini adalah project CRA + MySQL sederhana saya yang bernama react-mysql. Pada apl
 ## Tech Stack
 
 **Server:** Nodemon, MySQL, Sequelize, express
+
 **Client:** CRA, axios, Tailwind
 
 ## Installation & Running Project
