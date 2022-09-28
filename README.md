@@ -42,7 +42,7 @@ To import the database to mysql
   - Turn on Apache and MySQL
   - Open localhost/phpmyadmin at the browser
   - Create database name `tokoku`
-  - Import the sql file at `backend/db/tokoku.sql` to mysql
+  - Import the sql file at `backend/db/tokoku.sql` to tokoku at mysql
 ```
 
 To run the project, run the following command
