@@ -1,4 +1,4 @@
-# CRA + MySQL Project
+# Vite + React + MySQL Project
 
 Ini adalah project CRA + MySQL sederhana saya yang bernama react-mysql. Pada aplikasi ini kita bisa menyimpan data ke database mysql untuk menyimpan nama produk dan harga, serta dapat di edit dan di hapus pada data yang sudah ada.
 
