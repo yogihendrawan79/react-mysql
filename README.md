@@ -10,7 +10,7 @@ Ini adalah project CRA + MySQL sederhana saya yang bernama react-mysql. Pada apl
 
 **Server:** Nodemon, MySQL, Sequelize, express
 
-**Client:** CRA, axios, Tailwind
+**Client:** Vite + React, axios, Tailwind
 
 ## Installation & Running Project
 
